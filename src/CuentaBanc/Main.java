@@ -1,6 +1,6 @@
 package CuentaBanc;
 
-import java.util.Random;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -24,10 +24,9 @@ public class Main {
         System.out.println("Saldo actual: " + cuenta1.getSaldoCuenta());
     }
 
-    // Método privado para generar un número de cuenta aleatorio
-    private long generarNumeroDeCuenta() {
-        Random random = new Random();
-        return Math.abs(random.nextLong()); // Para asegurarnos de que sea positivo
-    }
+
 
 }
+
+
+
